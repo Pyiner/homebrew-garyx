@@ -2,27 +2,27 @@ class Garyx < Formula
   desc "AI chat gateway — connects Telegram/Feishu/WeChat to Claude/Codex"
   homepage "https://github.com/Pyiner/garyx"
   license "MIT"
-  version "0.1.14"
+  version "0.1.15"
 
   on_macos do
     on_arm do
-      url "https://github.com/Pyiner/garyx/releases/download/v0.1.14/garyx-0.1.14-aarch64-apple-darwin.tar.gz"
-      sha256 "d54ed3addf57186e9dcfa847c14759439e731a60fdb0266eb8ac19b338c33e72"
+      url "https://github.com/Pyiner/garyx/releases/download/v0.1.15/garyx-0.1.15-aarch64-apple-darwin.tar.gz"
+      sha256 "a997c2debb1576d8e04d5101e13fcd28577eb5294b7c94855f5d57a7fca0c1be"
     end
     on_intel do
-      url "https://github.com/Pyiner/garyx/releases/download/v0.1.14/garyx-0.1.14-x86_64-apple-darwin.tar.gz"
-      sha256 "7a38b44dcda2223014d5c1cfb8b45631e5781c3a8c18b0bcf2b691422ccea082"
+      url "https://github.com/Pyiner/garyx/releases/download/v0.1.15/garyx-0.1.15-x86_64-apple-darwin.tar.gz"
+      sha256 "18aa3164a240220b65df7f05e0f24e410a9b767f6c14a1484a485dd85c2f3bc1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Pyiner/garyx/releases/download/v0.1.14/garyx-0.1.14-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9b400dda545510731fc3b239ecc77d7e1b8dcc1ba88e7fb42fc4c9ec7c5a79ac"
+      url "https://github.com/Pyiner/garyx/releases/download/v0.1.15/garyx-0.1.15-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "642ee69c0fbc11b1c3e93eeaaac9b76ad639c7cbcd8a5f919998eac9051b794e"
     end
     on_intel do
-      url "https://github.com/Pyiner/garyx/releases/download/v0.1.14/garyx-0.1.14-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ec027200ce16b722d085a51876800db338d8fba373cc66ba281967649d96d397"
+      url "https://github.com/Pyiner/garyx/releases/download/v0.1.15/garyx-0.1.15-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "debf08e893069d9a457715dc6cc5bc5019c4991f54773f1fcfeadbb1a0eb1c88"
     end
   end
 
